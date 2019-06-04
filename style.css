@@ -1,3 +1,61 @@
-body {
-  background: #000;
+/*regole generali*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center-cont {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  height: 100px;
+  background: white;
+  border: solid 1px #000;
+  width: calc(100% / 3);
+  float: left;
+}
+
+
+
+/*header*/
+header {
+  height: 150px;
+  background: yellow;
+}
+
+
+/*blocco principale pagina*/
+.main {
+  /* width: 85vw; */
+  /* max-width: 85vw;
+  margin: auto; */
+
+}
+
+section {
+  height: 200px;
+  background-color: red;
+  border: solid 1px #000;
+}
+
+.payoff{
+  height: 100px;
+  background: gray;
+}
+
+
+/*footer*/
+footer{
+  height: 150px;
+  background: green;
 }
